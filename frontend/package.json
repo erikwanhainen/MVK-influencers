@@ -1,0 +1,60 @@
+{
+  "homepage": ".",
+  "name": "mvk-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nivo/line": "^0.61.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "d3": "^5.15.0",
+    "jquery": "^3.4.1",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.13.0",
+    "react-dropdown": "^1.7.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-select": "^3.1.0",
+    "react-share": "^4.1.0",
+    "react-sticky": "^6.0.3",
+    "react-transition-group": "^1.2.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "jsdoc": "^3.6.4",
+    "react-image-webp": "^0.7.0",
+    "react-snap": "^1.23.0"
+  }
+}

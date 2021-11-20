@@ -1,0 +1,53 @@
+$color-blue: #4e7d98;
+
+.footer {
+  height: 29vh;
+  width: auto;
+  display: grid;
+  grid-template-columns: 13% 20% auto 20% 13%;
+  grid-template-rows: 4vh auto auto auto 4vh;
+
+  background-color: $color-blue;
+  color: white;
+  font-size: 0.8vw;
+  font-style: normal;
+  line-height: normal;
+
+  position: relative;
+}
+
+.footerLeft {
+  text-align: left;
+}
+
+.footerCenter {
+  text-align: center;
+  font-size: 0.65vw;
+}
+
+.footerRight {
+  text-align: right;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footerHR {
+  background-color: white;
+  border: 0px;
+  height: 1px;
+  margin: 0px;
+  line-height: 0px;
+}

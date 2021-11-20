@@ -1,0 +1,12 @@
+$color-blue: #4e7d98;
+$navbar-height: 7vh;
+
+.home_background {
+  height: 100vh - $navbar-height;
+  width: 100%;
+  filter: contrast(120%) brightness(0.9) opacity(0.88) grayscale(20%);
+  background-image: url("../../resources/kammaren_blur1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

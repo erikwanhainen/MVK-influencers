@@ -1,0 +1,221 @@
+$color-blue: #4e7d98;
+$color-dark-blue: #285F7F;
+$mainWindowTopPlacement: 20%;
+$navbar-height: 7vh;
+
+.body {
+  background-color: white;
+  background: white;
+}
+
+.containerTop {
+  display: grid;
+  grid-template-columns:  50% 50%;
+  grid-template-rows: auto auto auto auto auto 40%;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-top: 6%;
+
+  height: 77vh;
+  background-color: $color-blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  color: white;
+  font-size: 1.6vw;
+}
+
+.containerTop h1 {
+  margin: 0px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.containerTop span {
+  margin: 0px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.containerTop img {
+  width: auto;
+  height: auto;
+  margin: 0px;
+}
+
+.containerCenter {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto auto auto 35%;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-top: 6%;
+
+  height: 84vh;
+  width: auto;
+  color: $color-dark-blue;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 1vw;
+  text-align: left;
+  line-height: 2vw;
+}
+
+.containerCenter img {
+  height: auto;
+  width: auto;
+  margin: 0px;
+  margin-right: 0vw;
+}
+
+.containerCenter h1 {
+  grid-column: 2;
+  margin-top: 3vh;
+  margin-right: auto;
+  margin-left: 2vw;
+}
+
+.containerCenter p {
+  margin-bottom: 0vw;
+  margin-left: 2vw;
+  grid-column: 2;
+  font-size: 1.7vw;
+  line-height: 4.3vh;
+}
+
+.containerBottom {
+  display: grid;
+  grid-template-columns: 4vw auto auto auto auto auto auto auto auto;
+  grid-template-rows: 17% 15vw auto 1vw 15vw auto 5% auto;
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
+  column-gap: 4vw;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100vh;
+  width: auto;
+  background-color: $color-blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+  line-height: 1.3vw;
+} 
+
+.containerBottom h1 {
+  margin-top: 4vw;
+}
+
+.containerBottomName {
+  margin-top: 0.9vw;
+  z-index: 4;
+}
+.containerBottomTitle {
+  font-size: 0.9vw;
+  z-index: 4;
+}
+
+.avatar {
+  width: 14vw;
+  max-height: 14vw;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.avatar img{
+  max-width: inherit; 
+  max-height: inherit;
+}
+
+.circle {
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.circle_head {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  border: 1vh solid white;
+  background-color:$color-blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 3;
+}
+
+.circle_body {
+  width: 9vw;
+  height: 9vw;
+  border-radius: 50%;
+  background-color:$color-blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vw;
+  margin-bottom: auto - 15vh;
+  z-index: 2;
+}
+
+.indicator{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  margin-bottom: 2.1vh;
+  width: 1.8vh;
+  height: 1.8vh;
+  background-color: rgb(255, 255, 255);
+  transform: rotate(45deg);
+}
+
+.indicator span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  border-right: 0.23vh solid $color-blue;
+  border-bottom: 0.23vh solid $color-blue;
+}
+
+.indicatorUp{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  margin-bottom: 2.1vh;
+  width: 1.8vh;
+  height: 1.8vh;
+  background: $color-blue;
+  transform: rotate(45deg);
+}
+
+.indicatorUp span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  border-left: 0.23vh solid white;
+  border-top: 0.23vh solid white;
+}

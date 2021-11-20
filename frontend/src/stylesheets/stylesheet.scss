@@ -1,0 +1,48 @@
+$bkg-color: #ffffff;
+$color-blue: #4e7d98;
+$color-blue-dark: #285f7f;
+$mainWindowTopPlacement: 20%;
+$mainFont: "Arial";
+
+.App {
+}
+
+.mainItem {
+  grid-column: 2 / 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  //grid-row: 2 / 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 0;
+}
+
+body {
+  //background-color: $color-blue;
+  margin: 0;
+  padding: 0;
+  font-family: $mainFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: $mainFont;
+}
+
+section {
+  width: 100vw;
+  margin: 1em auto;
+  padding: 0em;
+}
+
+a.link:link,
+a.link:visited {
+  color: $color-blue-dark;
+  text-decoration: none;
+}
+
+script {
+  width: 100vw;
+}
+
